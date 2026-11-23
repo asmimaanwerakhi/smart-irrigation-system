@@ -1,0 +1,92 @@
+{
+  "dataset_rows": 139680,
+  "training_rows": 111744,
+  "test_rows": 27936,
+  "test_start": "2026-07-28T14:24:00",
+  "test_end": "2026-08-16T23:59:00",
+  "target_counts_in_test": {
+    "0": 6936,
+    "1": 21000
+  },
+  "metrics": {
+    "Most frequent baseline": {
+      "accuracy": 0.7517182130584192,
+      "precision": 0.7517182130584192,
+      "recall": 1.0,
+      "f1": 0.8582638548307994,
+      "macro_f1": 0.4291319274153997
+    },
+    "Decision tree": {
+      "accuracy": 0.8101016609392898,
+      "precision": 0.8778831800452641,
+      "recall": 0.8681428571428571,
+      "f1": 0.8729858500730242,
+      "macro_f1": 0.7484390434342434
+    }
+  },
+  "saved_model": "c:\\Users\\Dell\\Desktop\\Asmima-Anwer-Profile\\Smart Irrigation System\\models\\trained_model.joblib",
+  "outputs": "c:\\Users\\Dell\\Desktop\\Asmima-Anwer-Profile\\Smart Irrigation System\\outputs",
+  "reloaded_model_sample_predictions": [
+    0,
+    0,
+    1,
+    0,
+    1
+  ],
+  "classification_report": {
+    "Most frequent baseline": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 6936.0
+      },
+      "1": {
+        "precision": 0.7517182130584192,
+        "recall": 1.0,
+        "f1-score": 0.8582638548307994,
+        "support": 21000.0
+      },
+      "accuracy": 0.7517182130584192,
+      "macro avg": {
+        "precision": 0.3758591065292096,
+        "recall": 0.5,
+        "f1-score": 0.4291319274153997,
+        "support": 27936.0
+      },
+      "weighted avg": {
+        "precision": 0.565080271843743,
+        "recall": 0.7517182130584192,
+        "f1-score": 0.645172571286039,
+        "support": 27936.0
+      }
+    },
+    "Decision tree": {
+      "0": {
+        "precision": 0.6137536615985493,
+        "recall": 0.6343713956170703,
+        "f1-score": 0.6238922367954626,
+        "support": 6936.0
+      },
+      "1": {
+        "precision": 0.8778831800452641,
+        "recall": 0.8681428571428571,
+        "f1-score": 0.8729858500730242,
+        "support": 21000.0
+      },
+      "accuracy": 0.8101016609392898,
+      "macro avg": {
+        "precision": 0.7458184208219067,
+        "recall": 0.7512571263799637,
+        "f1-score": 0.7484390434342434,
+        "support": 27936.0
+      },
+      "weighted avg": {
+        "precision": 0.8123046312212946,
+        "recall": 0.8101016609392898,
+        "f1-score": 0.811140442652736,
+        "support": 27936.0
+      }
+    }
+  }
+}
